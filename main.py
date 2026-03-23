@@ -1,6 +1,6 @@
 import logging
 
-_formatter = logging.Formatter("%(asctime)s %(message)s", datefmt="%Y-%m-%d %H:%M:%S")
+_formatter = logging.Formatter("%(asctime)s %(levelname)s: %(message)s", datefmt="%Y-%m-%d %H:%M:%S")
 _handler = logging.StreamHandler()
 _handler.setFormatter(_formatter)
 
