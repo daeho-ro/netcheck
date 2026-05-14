@@ -15,7 +15,7 @@ docker compose up -d
 | 필드 | 타입 | 설명 |
 |---|---|---|
 | `type` | `"tcp"` \| `"udp"` | 체크 타입 |
-| `host` | string | 대상 IP (도메인 불가) |
+| `host` | string | 대상 IP 또는 도메인 |
 | `port` | integer | 대상 포트 (1–65535) |
 
 ## 응답
